@@ -97,7 +97,7 @@ tensorboard/
 *.joblib
 *.pkl
 *.pickle
-
+.artifacts/
 # ==========================
 # Data (Uncomment if datasets
 # are too large for Git)

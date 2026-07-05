@@ -84,9 +84,7 @@ class DataTransformation:
                 self.data_transformation_config.preprocessor_obj_file_path,
             )
         except Exception as e:
-            print("ERROR:", e)
-            raise
-           
+            raise CustomException(e, sys)
     
 
 
